@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 40% 98%;
+  --foreground: 222.2 47.4% 11.2%;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Segoe UI", sans-serif;
+}
+
+.main-gradient {
+  background: radial-gradient(circle at top left, #bfdbfe, transparent 55%),
+    radial-gradient(circle at bottom right, #fbcfe8, transparent 55%);
+}
